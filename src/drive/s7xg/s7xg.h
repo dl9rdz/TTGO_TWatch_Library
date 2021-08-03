@@ -156,7 +156,7 @@ private:
 
     bool _sendAndWaitForAck(const char *c, const char *resp, uint8_t timeout, bool anyAck = false);
     char _lastError[256];
-    char _buffer[128];
+    char _buffer[512];
 
     static const char *_gpsTypeArr[];
     static const char *_gpsModeArr[];
